@@ -16,6 +16,15 @@ Illustrates static synchronization using `static synchronized` methods which app
 ### 4. `LockObjectSynchronization.java`
 Explains synchronization using a separate `lock` object, which gives more control over locking compared to using `this`.
 
+### 5. `ReentrantLockSynchronization.java`
+Demonstrates thread synchronization using ReentrantLock instead of synchronized blocks.
+ReentrantLock offers more advanced control over locking, such as:
+- Try-locking with timeouts
+- Interruptible locks
+- Explicit lock and unlock calls
+
+This gives finer-grained control over concurrency compared to implicit locks via synchronized.
+
 ## How to Run
 
 Compile and run each class independently to understand how thread synchronization works in Java.
